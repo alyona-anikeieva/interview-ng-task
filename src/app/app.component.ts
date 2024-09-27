@@ -17,4 +17,6 @@ export class AppComponent {
   addTask(task: Task) {
     this.tasks.push(task);
   }
+
+  // TODO*: Implement removing task logic
 }
