@@ -17,7 +17,7 @@ export class TaskFormComponent implements OnInit {
 
   constructor(private fb: FormBuilder) {
     this.taskForm = this.fb.group({
-      title: ['d', Validators.required],
+      title: ['', Validators.required],
       description: ['', Validators.required]
     });
   }
