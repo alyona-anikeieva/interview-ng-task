@@ -18,5 +18,5 @@ export class AppComponent {
     this.tasks.push(task);
   }
 
-  // TODO*: Implement removing task logic
+  // TODO: Implement removing task logic
 }

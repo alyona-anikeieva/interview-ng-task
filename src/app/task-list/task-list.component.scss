@@ -4,9 +4,27 @@
   gap: 12px;
 }
 
-.task-item {
+.task {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
   background-color: #fff;
+  .task-title {
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  .task-description {
+    font-size: 1rem;
+    color: #666;
+  }
+  .task-delete {
+    position: absolute;
+    top: 2px;
+    right: 8px;
+    padding: 5px;
+  }
 }
