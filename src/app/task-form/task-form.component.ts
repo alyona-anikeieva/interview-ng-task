@@ -20,10 +20,7 @@ export class TaskFormComponent {
       title: ['', Validators.required],
       description: ['', Validators.required]
     });
-    // TODO: Add validation for the form: the title must contain at least 3 characters, and the description must contain at least 5.
   }
 
-  onSubmit(): void {
-    // TODO: Implement the logic for submitting the form
-  }
+  onSubmit(): void {}
 }
